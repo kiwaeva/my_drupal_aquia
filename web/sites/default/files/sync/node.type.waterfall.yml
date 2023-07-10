@@ -1,0 +1,17 @@
+uuid: ee8a368e-6552-46ac-bda0-7e1d1249bddf
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Waterfall
+type: waterfall
+description: 'A listing for a waterfall'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
