@@ -5,11 +5,13 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.waterfall.body
+    - field.field.node.waterfall.field_hike_difficulty
     - field.field.node.waterfall.field_hike_duration
     - field.field.node.waterfall.field_image
     - field.field.node.waterfall.field_official_website
     - field.field.node.waterfall.field_walking_and_driving_instru
     - field.field.node.waterfall.field_waterfall_height
+    - field.field.node.waterfall.field_waterfall_location
     - field.field.node.waterfall.field_waterfall_video
     - image.style.medium
     - node.type.waterfall
@@ -47,8 +49,10 @@ content:
     weight: 100
     region: content
 hidden:
+  field_hike_difficulty: true
   field_hike_duration: true
   field_official_website: true
   field_walking_and_driving_instru: true
   field_waterfall_height: true
+  field_waterfall_location: true
   field_waterfall_video: true
