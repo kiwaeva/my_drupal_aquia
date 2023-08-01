@@ -1,0 +1,33 @@
+uuid: e3bf98f7-db72-436e-a435-904beff52065
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c3745b36-215a-4986-92e8-fd9c58fcbebd'
+  module:
+    - block_content
+    - user
+  theme:
+    - olivero
+id: olivero_newmembers
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: 'block_content:c3745b36-215a-4986-92e8-fd9c58fcbebd'
+settings:
+  id: 'block_content:c3745b36-215a-4986-92e8-fd9c58fcbebd'
+  label: 'Why join?'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
